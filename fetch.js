@@ -3,10 +3,11 @@ const https = require("https");
 process = require("process");
 require("dotenv").config();
 
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
-const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
-const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
+// const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+const GITHUB_TOKEN = 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;
+const GITHUB_USERNAME = kamalaly611;
+const USE_GITHUB_DATA = true;
+const MEDIUM_USERNAME = "YOU MEDIUM USERNAME HERE";
 
 const ERR = {
   noUserName:
