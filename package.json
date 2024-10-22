@@ -9,15 +9,15 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
-    "react-twitter-embed": "3.0.3",
+    "react-twitter-embed": "^4.0.4",
     "sass": "^1.32.8"
   },
   "scripts": {
@@ -29,7 +29,6 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
-    // "postinstall": "npx update-browserslist-db@latest"
   },
   "eslintConfig": {
     "extends": "react-app"
