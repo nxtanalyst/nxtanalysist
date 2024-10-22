@@ -28,8 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
-    "postinstall": "npx update-browserslist-db@latest"
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    // "postinstall": "npx update-browserslist-db@latest"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,9 +52,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
     "webpack": "^5.65.0",
     "webpack-dev-server": "^4.7.1"
   }
