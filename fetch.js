@@ -4,10 +4,9 @@ process = require("process");
 require("dotenv").config();
 
 // const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const GITHUB_TOKEN = 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;
-const GITHUB_USERNAME = kamalaly611;
-const USE_GITHUB_DATA = true;
-const MEDIUM_USERNAME = "YOU MEDIUM USERNAME HERE";
+// const GITHUB_TOKEN = "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";
+// const GITHUB_USERNAME = "kamalaly611";
+const USE_GITHUB_DATA = false;  // Set to false to avoid fetching GitHub data
 
 const ERR = {
   noUserName:
@@ -17,6 +16,9 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
+// Commenting GitHub fetching block
+/*
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
@@ -94,7 +96,10 @@ if (USE_GITHUB_DATA === "true") {
   req.write(data);
   req.end();
 }
+*/
 
+// Commented out Medium fetching block as well
+/*
 if (MEDIUM_USERNAME !== undefined) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
@@ -129,3 +134,4 @@ if (MEDIUM_USERNAME !== undefined) {
 
   req.end();
 }
+*/
