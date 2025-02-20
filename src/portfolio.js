@@ -23,10 +23,10 @@ const greeting = {
   username: "Kamal Hussain",
   title: "Hi all, I'm Kamal",
   subTitle: emoji(
-    "I'm a passionate developer with skills in web development, data science, and AI. Proficient in Python, R, Haskell, I specialize in crafting intelligent algorithms and have hands-on experience in CSS, HTML, JavaScript, React, Material UI, and SQL."
+    "Passionate Data Scientist specializing in AI, Machine Learning, and predictive modeling. Skilled in Python, R, and Haskell, with expertise in developing energy-efficient IDS for IoT using Federated Learning and crafting data-driven solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://dochub.com/kamal-hussain/5lae27DR5qEDzo7RmqjZv1/kamal-hussain-pdf?dt=YoZzGxz_HtywZnWne8wT", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/kamalaly611",
-  linkedin: "https://www.linkedin.com/in/kamal-hussain-b384b7192/",
+  linkedin: "https://www.linkedin.com/in/nxtanalyst/",
   // gmail: "kamalaly611@gmail.com",
   upwork: "https://www.upwork.com/freelancers/~012d16f32bb5d6c53b",
   fiveer: "https://www.upwork.com/freelancers/~012d16f32bb5d6c53b",
@@ -102,10 +102,10 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "swift",
     //   fontAwesomeClassname: "fab fa-swift"
     // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
+     {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -241,7 +241,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/classification.jpeg"),
-      projectName: "Breast Cancer Prediction Application",
+      projectName: "Breast Cancer Prediction Application Using Machine Learning & Deep learning",
       projectDesc: "Developed a brief Breast Cancer Prediction App with ML.",
       footerLink: [
         {
@@ -252,16 +252,28 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/proff.jpeg"),
-      projectName: "Personal Portfolio",
-      projectDesc: "Created Personal Portfolio showcasing skills & projects.",
+      image: require("./assets/images/senti.png"),
+      projectName: "Speech Emotion Recognition using Recurrent Neural Networks (RNN) ",
+      projectDesc: "A system that identifies and classifies human emotions .",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://ghazanfarhussain.netlify.app/"
         }
       ]
-    }
+    },{
+      image: require("./assets/images/abc.jpg"),
+      projectName: "Computer Aided Diagnosis For Eczema And Psoriasis Through Deep Learning",
+      projectDesc: "Developed a brief Skin Cancer Prediction App with ML.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/kamalaly611/Breast-Cancer-Classfication-System"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -276,51 +288,51 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ML with Python",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Learned to implement and apply machine learning algorithms using Python.",
+      image: require("./assets/images/ml.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.freecodecamp.org/certification/KamalHussain611/machine-learning-with-python-v7"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Intermediate Python",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Enhanced programming skills with advanced Python concepts and techniques.",
+      image: require("./assets/images/certificate.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/bfb34e4e49b2117bccc3a04963baa9f0293a8b09"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "What is Data Science",
+      subtitle: " Learned the fundamentals of data science, including analysis, visualization.",
+      image: require("./assets/images/ds.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/BPZNGV2BWYH5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -348,7 +360,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -367,7 +379,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -380,7 +392,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
