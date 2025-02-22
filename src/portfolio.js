@@ -133,7 +133,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Szabist Islamaabd",
+      schoolName: "SZABIST ISLAMABAD",
       logo: require("./assets/images/ccc.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2019 - july 2023",
