@@ -147,7 +147,7 @@ const educationInfo = {
       schoolName: "Degree College GB",
       logo: require("./assets/images/eferere.jpeg"),
       subHeader: "Intermediate in Computer Science",
-      duration: "September 2017 - may 2019",
+      duration: "September 2017 - May 2019",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -323,7 +323,7 @@ const achievementSection = {
     },
 
     {
-      title: "What is Data Science",
+      title: "Introduction Data Science",
       subtitle: " Learned the fundamentals of data science, including analysis, visualization.",
       image: require("./assets/images/ds.jpeg"),
       imageAlt: "PWA Logo",
