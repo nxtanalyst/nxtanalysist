@@ -323,7 +323,7 @@ const achievementSection = {
     },
 
     {
-      title: "Introduction Data Science",
+      title: "Intro to Data Science",
       subtitle: " Learned the fundamentals of data science, including analysis, visualization.",
       image: require("./assets/images/ds.jpeg"),
       imageAlt: "PWA Logo",
