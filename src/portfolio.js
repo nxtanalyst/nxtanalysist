@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/kamalaly611",
+  github: "https://github.com/nxtanalyst",
   linkedin: "https://www.linkedin.com/in/nxtanalyst/",
   // gmail: "kamalaly611@gmail.com",
   upwork: "https://www.upwork.com/freelancers/~012d16f32bb5d6c53b",
