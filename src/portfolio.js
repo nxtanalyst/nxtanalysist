@@ -26,7 +26,7 @@ const greeting = {
     "Passionate Data Scientist specializing in AI, Machine Learning, and predictive modeling. Skilled in Python, R, and Haskell, with expertise in developing energy-efficient IDS for IoT using Federated Learning and crafting data-driven solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_63FS2Gn3z-z8x49m7-ODvutf7NfXC0y/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1akLrpJ-jC8C8pUm7Cft1BT9xAMuHIBIw/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
