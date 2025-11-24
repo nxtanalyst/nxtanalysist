@@ -3,7 +3,7 @@ import "./ExperienceCard.scss";
 
 export default function ExperienceCard({ cardInfo, isDark }) {
   // Destructure the new prop: backgroundColor
-  const { backgroundColor = "#0d112ab5" } = cardInfo; // fallback color
+  const { backgroundColor = "#171c28" } = cardInfo; // fallback color
 
   const GetDescBullets = ({ descBullets, isDark }) => {
     return descBullets?.map((item, i) => (

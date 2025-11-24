@@ -96,29 +96,23 @@ https://fontawesome.com/icons?d=gallery */
     fontAwesomeClassname: "fab fa-docker"
   },
   {
-    skillName: "Kubernetes",
-    fontAwesomeClassname: "fas fa-project-diagram"
+    skillName: "CI/CD (Git, GitHub Actions, Jenkins)",
+    fontAwesomeClassname: "fas fa-cogs"
   },
   {
     skillName: "Terraform",
     fontAwesomeClassname: "fas fa-code-branch"
   },
   {
-    skillName: "CI/CD (GitHub Actions)",
-    fontAwesomeClassname: "fas fa-cogs"
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "SQL",
+    skillName: "SQL / Databases",
     fontAwesomeClassname: "fas fa-database"
   },
-  {
-    skillName: "NPM",
-    fontAwesomeClassname: "fab fa-npm"
-  }
+{
+  skillName: "Windows / Active Directory",
+  fontAwesomeClassname: "fab fa-windows"  // fab instead of fas
+}
+
+
 ],
 display: true
 };
