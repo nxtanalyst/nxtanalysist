@@ -14,7 +14,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Hire me{" "}
-          <a href="https://www.upwork.com/freelancers/~012d16f32bb5d6c53b">
+          <a href="https://nxtauric.com/">
         Nxtanalyst
           </a>
         </p>

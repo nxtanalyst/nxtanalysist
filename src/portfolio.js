@@ -23,10 +23,11 @@ const greeting = {
   username: "Kamal Hussain",
   title: "Hi all, I'm Kamal",
   subTitle: emoji(
-    "Passionate Data Scientist specializing in AI, Machine Learning, and predictive modeling. Skilled in Python, R, and Haskell, with expertise in developing energy-efficient IDS for IoT using Federated Learning and crafting data-driven solutions."
-  ),
+  "Cloud & DevOps Engineer passionate about automation, CI/CD, and scalable infrastructure. Skilled in Azure, Linux, Docker, Kubernetes, Terraform, and monitoring — focused on building secure, reliable, and production-ready systems."
+),
+
   resumeLink:
-    "https://drive.google.com/file/d/1akLrpJ-jC8C8pUm7Cft1BT9xAMuHIBIw/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rU5KlhrGglt8eSz5hlz3YjpXfiNfHRTm/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,18 +52,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "VERSATILE DEVELOPER PASSIONATE ABOUT DATA SCIENCE, AI, ML, AND WEB DEV",
+  subTitle: "CLOUD & DEVOPS ENGINEER FOCUSED ON AUTOMATION, SCALABILITY, AND RELIABILITY",
   skills: [
     emoji(
-      "Data Science & AI:📊 Expert in data analysis with Python, R, and statistical programming Proficient in AI and neural networks."
-    ),
-    
-    emoji(
-      "Machine Learning Enthusiast:🤖 Dedicated to creating predictive models for data-driven decision-making."
+      "Cloud & Infrastructure: ☁️ Designing and managing scalable infrastructure on Azure with strong Linux administration."
     ),
 
     emoji(
-      "Web Development Expert:🌐 Specialized in crafting responsive websites using modern technologies like React JS, CSS, HTML, and Material UI"
+      "DevOps & Automation: 🔁 Building CI/CD pipelines, automating deployments, and managing Infrastructure as Code using Docker, Kubernetes, and Terraform."
+    ),
+
+    emoji(
+      "Monitoring & Security: 🛡 Implementing monitoring, logging, and cloud security best practices to ensure reliable and production-ready systems."
     )
   ],
 
@@ -70,62 +71,58 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  {
+    skillName: "Linux",
+    fontAwesomeClassname: "fab fa-linux"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "Bash / Shell",
+    fontAwesomeClassname: "fas fa-terminal"
+  },
+  {
+    skillName: "Azure",
+    fontAwesomeClassname: "fas fa-cloud"
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "Kubernetes",
+    fontAwesomeClassname: "fas fa-project-diagram"
+  },
+  {
+    skillName: "Terraform",
+    fontAwesomeClassname: "fas fa-code-branch"
+  },
+  {
+    skillName: "CI/CD (GitHub Actions)",
+    fontAwesomeClassname: "fas fa-cogs"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "NPM",
+    fontAwesomeClassname: "fab fa-npm"
+  }
+],
+display: true
 };
+
 
 // Education Section
 
@@ -174,55 +171,49 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Upwork",
-      company: "Data Scinetist & Developer",
+      role: "DevOps Intern",
+      company: "SPS",
+      companylogo: require("./assets/images/fivver.jpg"),
+      date: "Jul 2025 – Oct 2025",
+      backgroundColor: "#1E3A8A",   // <-- BLUE
+      descBullets: [
+        "Managed Linux/Windows administration, Active Directory, and Microsoft 365.",
+        "Contributed to on-prem to Azure migration, endpoint management & cloud security.",
+        "Expanded DevOps expertise with Git, CI/CD, Docker, and IaC."
+      ]
+    },
+    {
+      role: "Cloud / Python Developer",
+      company: "Upwork",
       companylogo: require("./assets/images/up1.PNG"),
-      date: "June 2019 – Present",
+      date: "Aug 2022 – Present",
+      // no backgroundColor → auto-pick stays
       descBullets: [
-        "Expert in: Data Science, AI, ML, Python.",
-        "Skills: Responsive Web Design.",
-        "Specializes in: Data-driven solutions, coding tutoring for web projects."
+        "Delivered cloud automation and Python solutions for international clients.",
+        "Supported cloud deployments (Azure, VPS, hosting) and troubleshooting.",
+        "Developed automation scripts and tools to improve operational efficiency."
       ]
     },
     {
-      role: " LinkedIn",
-      company: "AI & Coding Expert",
-      companylogo: require("./assets/images/linkedinfinal.png"),
-      date: "June 2020 – Present",
+      role: "Intern",
+      company: "Devocean Technologies (Pvt Ltd)",
+      companylogo: require("./assets/images/dev.jpg"),
+      date: "Aug 2024 – Oct 2024",
+      backgroundColor: "#FFD8A8",  // <-- LIGHT ORANGE
       descBullets: [
-        "Proficient in: Data Science, AI, Python.",
-        "Masters: ML, Responsive Web Design.",
-        "Passionate about: Data-driven solutions, coding tutoring for web projects."
+        "Developed predictive analytics and ML models using Python & Scikit-learn.",
+        "Implemented automated data pipelines improving data efficiency by 25%.",
+        "Built AngularJS solutions through Web Development Task Force."
       ]
-      
-    },
-    {
-      role: "fiverr.",
-      company: "AI Integration Specialist",
-      companylogo: require("./assets/images/fiverfinal.webp"),
-      date: "June 2019 – Present",
-      footerLink: [
-      
-        "https://github.com/kamalaly611/Breast-Cancer-Classfication-System"
-      
-      ],
-      descBullets: [
-        "Mastering: Data Science, AI, ML.",
-        "Tech Skills: Python, Responsive Web Design.",
-        "Dedicated to: Crafting data-driven solutions, coding tutoring for web projects."
-        
-      ]
-    
     }
   ]
 };
+
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
