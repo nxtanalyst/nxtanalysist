@@ -5,20 +5,26 @@ import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Kamal-Hussain")}
+          {emoji("Designed & Created by NxtAuric 🚀")}
         </p>
+
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Hire me{" "}
-          <a href="https://nxtauric.com/">
-        Nxtanalyst
+          <a 
+            href="https://nxtauric.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            NxtAuric
           </a>
         </p>
       </div>
     </Fade>
   );
 }
+
